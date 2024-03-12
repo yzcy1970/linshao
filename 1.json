@@ -1,5 +1,15 @@
-{"sites":[{"key":"本地","name":"🌏🐝蜂❤️蜜💛大💚屌💙线💜路☯️🈹","type":3,"style":{"type":"rect","ratio":1.485},"api":"csp_Local","searchable":0,"changeable":0},
-/*------------------------分割线------------------------*/{"key":"lf_js_search","name":"路飞豆瓣|lf_search","type":3,"style":{"type":"rect","ratio":1.485},"searchable":0,"changeable":0,"quickSearch":0,"filterable":1,"api":"https://qu.ax/uukw.js"},
+{"sites":[
+/*------------------------分割线------------------------*/{"key":"lf_js_search","name":"路飞豆瓣|lf_search","type":3,"style":{"type":"rect","ratio":1.485},"searchable":0,"changeable":0,"quickSearch":0,"filterable":1,"api":"./路飞豆瓣.js"},{"key": "Fangniu4k","name": "放牛4K","type": 3,"api": "csp_Fangniu4k","searchable": 1,"changeable": 1,"jar":"./放牛4k.jar"},
+{
+			"key": "网盘配置",
+			"name": "磁力+网盘及彈幕配置",
+			"type": 3,
+			"api": "csp_Config",
+			"searchable": 0,
+			"changeable": 0,
+			"jar":"./磁力/磁力+netflav.jar",
+			"ext":"./磁力/tokentemplate.json"
+		},
 {
             "key": "lf_js_p2p",
             "name": "磁力p2p",
@@ -10,7 +20,35 @@
             "filterable": 1,
             "api": "./lf_p2p2_min.js",
             "ext": "18+"
-        },{
+        },
+		{
+			"key": "新6V",
+			"name": "新6V|网盘",
+			"type": 3,
+			"api": "csp_Xb6v",
+			"searchable": 1,
+			"changeable": 1,
+			"timeout": 60,
+			"jar":"./磁力/磁力+netflav.jar",
+			"ext":"./磁力/tokentemplate.json"
+		},
+		{"key": "csp_Mp4Mov","name": "🧲Mp4电影","type": 3,"api": "csp_Mp4Mov","searchable": 1,"jar":"./磁力/磁力+netflav.jar","quickSearch": 1,"filterable": 1},
+        {"key":"csp_SeedHub","name":"🧲SeedHub","type":3,"jar":"./磁力/磁力+netflav.jar","api":"csp_SeedHub","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
+        {"key":"csp_KubaCL","name":"🧲酷吧电影","type":3,"jar":"./磁力/磁力+netflav.jar","api":"csp_KubaCL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
+        {"key":"csp_MeijuTT","name":"🧲美剧天堂","type":3,"jar":"./磁力/磁力+netflav.jar","api":"csp_MeijuTT","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
+        {"key":"csp_MeijuMi","name":"🧲美剧迷","type":3,"jar":"./磁力/磁力+netflav.jar","api":"csp_MeijuMi","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
+    {
+      "key": "csp_XYQHikerdyx",
+      "name": "🧲电影港湾",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://download.kstore.space/download/4127/js/电影港.json","jar":"./磁力/磁力+netflav.jar"
+    },
+    {"key":"drpy_js_磁力熊[磁]","name":"🧲磁力 | 磁力熊[磁][js]","jar":"./磁力/磁力+netflav.jar","type":3,"api":"https://qu.ax/NtMt.js","ext":"https://qu.ax/zGrL.js"},
+        {
       "key": "Yinyuetai",
       "name": "🛰音悦台┃音乐┃MV",
       "type": 3,
@@ -18,7 +56,8 @@
       "searchable": 1,
       "changeable": 0,
       "jar":"./ktv.jar"
-    },{
+    },
+    {
       "key": "Iktv",
       "name": "🛰KTV┃音乐┃MV",
       "type": 3,
@@ -27,6 +66,7 @@
       "changeable": 0,
       "jar":"./ktv.jar"
     },
+    {"key":"ktv","name":"🔵KTV[cat]","type":3,"api":"./lib/ktv_open.js"},
 /*------------------------分割线------------------------*/
 {"key":"csp_Aid","name":"🚑︎🈶来急救百科","type":3,"style":{"type":"rect","ratio":3.8},"api":"csp_FirstAid","searchable":1,"quickSearch":1,"changeable":0,"jar":"./有来急救百科.jar;md5;510fa1663f7067bd4d40de06097202bf"},
 /*------------------------分割线------------------------*/
@@ -40,14 +80,6 @@
       "ext": "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/jianpian.json"
     },
     {
-            "key": "Fang niu4k",
-            "name": "🇨🇳放牛·4k",
-            "type": 3,
-            "api": "csp_Fangniu4k",
-            "searchable": 1,
-            "changeable": 0,
-            "jar": "./放牛4k.jar"
-        },{
             "key": "罗汉拳",
             "name": "👍👍┃阿西吧┃",
             "type": 3,
@@ -90,17 +122,19 @@
 /*------------------------分割线------------------------*/
 {"key":"星星","name":"星视界|海外","type":3,"style":{"type":"rect","ratio":1.485},"api":"csp_Star","searchable":1,"changeable":1},
 /*------------------------分割线------------------------*/
-{"key":"csp_Nbys","name":"蜂蜜新泥巴","type":3,"style":{"type":"rect","ratio":1.485},"api":"csp_NiNi","searchable":1,"changeable":1},
-/*------------------------分割线------------------------*/
-{"key":"蜂蜜旧泥巴","name":"蜂蜜旧泥巴","type":3,"style":{"type":"rect","ratio":1.485},"api":"csp_NiNi","searchable":1,"ext":1},
-/*------------------------分割线------------------------*/
-{"key":"泥巴","name":"泥巴","type":3,"style":{"type":"rect","ratio":1.485},"api":"csp_NiNi","searchable":1,"ext":"1"},
+{"key":"NBYY","name":"泥巴影院","type":3,"style":{"type":"rect","ratio":1.485},"api":"csp_NiNi","searchable":1},
 /*------------------------分割线------------------------*/
 {"key": "新6V","name": "新6V","type": 3,"api": "csp_Xb6v","searchable": 1,"changeable": 0,"style":{"type":"rect","ratio":1.485}},
 /*------------------------分割线------------------------*/
-{"key":"路飞大佬","name":"路飞真转点1","type":3,"style":{"type":"rect","ratio":1.485},"style":{"type":"oval"},"api":"https://qu.ax/bzoe.js","ext":"https://dpaste.com/4ACVXXT7N.txt"},
-/*------------------------分割线------------------------*/
-{"key":"路飞","name":"路飞直转点2","type":3,"style":{"type":"rect","ratio":1.485},"style":{"type":"oval"},"api":"https://qu.ax/Mud.js","searchable":1,"changeable":1,"ext":"https://dpaste.com/4ACVXXT7N.txt"},
+{
+      "key":"网络直播转点播",
+      "name":"❤💻电视 | 直播",
+      "type":3,
+      "style":{"type":"rect","ratio":1.485},"style":{"type":"oval"},
+      "viewType": 2,
+      "api":"./在线直播转点播.js",
+      "ext":"./在线直播转点播文件.txt"
+    },
 /*------------------------分割线------------------------*/
 {"key":"lf_js_p2p","name":"路飞_p2p磁力搜索","type":3,"style":{"type":"rect","ratio":1.485},"searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"recordable":0,"api":"https://qu.ax/cLnn.js","ext":"18+"},
 /*------------------------分割线------------------------*/
@@ -267,6 +301,53 @@
       "filterable": 1,
       "jar": "https://www.macms.pro/box/lib/spider.txt;md5;A21EA6F5DD3B5F922B3A7F54D3BD0F16",
       "ext": "https://www.macms.pro/box/lib/Bili短剧.json"
+    },
+    {
+      "key": "爱KTV",
+      "name": "爱KTV",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./爱ktv.jar",
+      "ext": {
+
+
+//"请求头": "手机",//User-Agent$MOBILE_UA  User-Agent$PC_UA
+"分类": "歌手&",
+"分类值": "singer&",
+"分类url": "https://vpsdn.leuse.top/searchmv?table={cateId}&pg={catePg}",
+//"二次截取": "",
+"数组": "[&&]",
+"标题": "name",
+"图片": "'http://txysong.mysoto.cc/singers/'+id+'.jpg'",
+"链接前缀": "https://vpsdn.leuse.top/searchmv?where=singer_names&keywords=",
+"链接后缀": "&size=130",
+"链接": "name",
+//"直接播放": "",
+//"搜索模式": "",
+"搜索url":"https://vpsdn.leuse.top/searchmv?keywords={wd}",
+"搜索数组": "[&&]",
+"搜索图片": "'http://txysong.mysoto.cc/singers/1'+id+'.jpg'",
+"搜索标题": "name",
+"搜索副标题": "",
+"搜索链接": "name",
+"搜索链接前缀": "https://vpsdn.leuse.top/searchmv?keywords=",
+"搜索链接后缀": "&size=130",
+"线路名二次截取": "",
+"线路数组": "",
+"线路标题": "",
+"导演": "cz",
+"主演": "cz",
+"播放二次截取": "[&&]",
+"播放数组": "",
+"播放列表": "{&&}",
+"播放标题": "name\": \"&&\",",
+"播放链接前缀": "http://txysong.mysoto.cc/songs/",
+"播放链接后缀": ".mkv",
+"播放链接": "number\":&&,",
+"免嗅": "1",
+"嗅探词": ".m3u8#mkv"
+
+}
     },
     {
       "key": "XBPQ_葡萄",
@@ -1192,6 +1273,8 @@
       ]
     },
 /*------------------------分割线------------------------*/
+{"key": "push_agent","name": "推送","type": 3,"api": "csp_Push","changeable":0, "timeout":30, "jar":"./磁力/磁力+netflav.jar",
+			"ext":"./磁力/tokentemplate.json"},
 {
             "key": "push_agent",
             "name": "📨┃影视┃推送",

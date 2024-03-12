@@ -1,13 +1,47 @@
 {
-  "sites": [
-   {
-      "key": "本地",
-      "name": "❤本地",
-      "type": 3,"style":{ "type":"rect", "ratio":1.485 },
-      "api": "csp_Local",
+  "sites": [{
+			"key": "网盘配置",
+			"name": "磁力设置+网盘及彈幕配置",
+			"type": 3,
+			"api": "csp_Config",
+			"searchable": 0,
+			"changeable": 0,
+			"jar":"./磁力/磁力+netflav.jar",
+			"ext":"./磁力/tokentemplate.json"
+		},
+  {"key":"PushShare","name":"我的资源分享","type":3, "api":"csp_PushShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./磁力/tokentemplate.json$$$./磁力/pushshare.txt$$$db$$$1",
+   "style": {"type": "list", "ratio": 1.1}, "jar":"./磁力/磁力+netflav.jar"},
+  {"key":"路飞","name":"路飞直转点","type":3,"style":{"type":"rect","ratio":1.485},"style":{"type":"oval"},"api":"./路飞直播转点播.js","searchable":1,"changeable":1,"ext":"./18+点播.txt"},
+  {
+      "key": "Pandalivetv",
+      "name": "💯韩国┃美女┃直播",
+      "type": 3,
+      "api": "csp_Pandalivetv",
       "searchable": 0,
-      "changeable":0
-    },{
+      "changeable": 0,
+      "jar":"./hanguomeinv.jar"
+    },
+  { 
+        "key": "🟢泥巴", 
+        "name": "🟢 泥巴", 
+        "type": 3, 
+        "api": "./猫/nivod_op.js",
+		"ext":"888解优愁"
+      },
+      {"key":"蜂蜜旧泥巴","name":"蜂蜜旧泥巴","type":3,"style":{"type":"rect","ratio":1.485},"api":"csp_NiNi","searchable":1,"ext":1},
+/*------------------------分割线------------------------*/
+		{
+      "key": "AV_Netflav",
+      "name": "🔞Netflav",
+      "type": 3,
+      "api": "csp_Netflav",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "jar":"./netflav.jar"
+       },
+       {"key":"Taohuazu","name":"🔞桃花族","type":3,"api":"csp_Taohuazu","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60,"jar":"./netflav.jar"},
+       {
             "key": "csp_xBPQ_女优",
             "name": "女优",
             "type": 3,
@@ -17,6 +51,29 @@
             "filterable": 0,
             "ext": "./女优.json",
             "jar": "./Yoursmile2.jar"
+        },
+        {
+            "key": "csp_xBPQ_404精品",
+            "name": "404精品T",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar":"./香雅情.jar",
+            "ext": {
+                "站名": "404精品",
+                "主页url": "https://404jpz.xyz/",
+                "分类": "精品推荐$27#剧情原创$28#探花约啪$51#主播大秀$52#传媒影像$53#情色节目$59#P站精品$61#抖阴短视频$63#网曝门$70#AV解说$76#国产视频$29#网红主播$30#偷拍自拍$31#国产伦理$77#国产精品$75#日韩视频$1#中文字幕$33#名优写真$35#日本伦理$39#名优综艺$40#韩美眉主播$41#骑兵有码$43#无码专区$6#卡通动漫$8#欧美$34",
+                "数组": "<div class=\"content\">&&</div>",
+                "图片": "src=\"&&\"",
+                "标题": "title=\"&&\"",
+                "链接": "href=\"&&\"",
+                "副标题": "title=\"&&\"",
+                "分类url": "https://404jpz.xyz/index.php/vod/type/id/{cateId}/page/{catePg}.html",
+                "直接播放": "1",
+                "免嗅": "1"
+            }
         },
   {
       "key": "AList",
@@ -29,8 +86,8 @@
   "vodPic": "https://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180504/82b2eff6f5bf489e9b4a90fbe9fc7e84.jpeg",
         "drives": [
 {
-      "name": "ECVE",
-      "server": "https://pan.ecve.cn"
+      "name": "玩的就是小雅",
+      "server": "https://tvbox.497356877.xyz:16666/"
     },
     {
       "name": "觸光",
@@ -183,7 +240,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "jar": "http://akun.work.gd/upload/jar/Yoursmile2.jar",
+            "jar": "./Yoursmile2.jar",
             "ext": "{\"分类url\":\"https://avhh.vip/cq/{cateId}-{catePg}.html\", \"分类\":\"请勿外传$2k-yazhou#按主页切换源$2k-zipaitoupai#无分类切换VPN$2k-chaoqingchuanmei#或者其他网络$2k-3Ddongman#资源网络共享$2k-oumei#有倒卖贩卖纯属欺诈$2k-luanlunrenqi#请勿相信！$2k-siwazhifu#绝对禁止未成年人观看$2k-zhibolubo#SM另类$2k-SMlinglei#超清三级$2k-chaoqingsanji\",\"副标题\":\"duration\\\">&&</div\",\"链接\": \"href=\\\"/cq/Kplay&&.html\\\"\", \"链接前缀\": \"https://avhh.vip/cq/Kplay\", \"链接后缀\": \".html\", \"直接播放\": \"1\" }"
         },
         {
@@ -193,7 +250,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "api": "csp_xBPQ",
-            "jar": "http://akun.work.gd/upload/jar/Yoursmile2.jar",
+            "jar": "./Yoursmile2.jar",
             "ext": {
                 "直接播放": "1",
                 "嗅探词": "m3u8#.m3u8",
@@ -251,7 +308,7 @@
                 "分类url": "https://chinaxxoo1000.pw/index.php/vod/type/id/{cateId}/page/{catePg}.html",
                 "分类": "有码$23#中文$24"
             },
-            "jar": "http://akun.work.gd/upload/jar/Yoursmile2.jar"
+            "jar": "./Yoursmile2.jar"
         },
         {
             "key": "MissAV",
@@ -272,7 +329,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "jar": "http://akun.work.gd/upload/jar/Yoursmile2.jar",
+            "jar": "./Yoursmile2.jar",
             "ext": "http://akun.work.gd/upload/xBPQ/新香蕉AV解说.json"
         },
         {
@@ -283,7 +340,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "jar": "http://akun.work.gd/upload/jar/Yoursmile2.jar",
+            "jar": "./Yoursmile2.jar",
             "ext": "http://akun.work.gd/upload/xBPQ/香蕉资源.json"
         },
         {
@@ -294,7 +351,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "jar": "http://akun.work.gd/upload/jar/Yoursmile2.jar",
+            "jar": "./Yoursmile2.jar",
             "ext": "http://akun.work.gd/upload/xBPQ/新香蕉超清资源.json"
         },
         {
@@ -305,7 +362,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "jar": "http://akun.work.gd/upload/jar/Yoursmile2.jar",
+            "jar": "./Yoursmile2.jar",
             "ext": "http://akun.work.gd/upload/xBPQ/新香蕉国产传媒.json"
         },
         {
@@ -316,7 +373,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "jar": "http://akun.work.gd/upload/jar/Yoursmile2.jar",
+            "jar": "./Yoursmile2.jar",
             "ext": "http://akun.work.gd/upload/xBPQ/新香蕉久久热.json"
         },
         {
@@ -327,7 +384,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "jar": "http://akun.work.gd/upload/jar/Yoursmile2.jar",
+            "jar": "./Yoursmile2.jar",
             "ext": "http://akun.work.gd/upload/xBPQ/新香蕉废柴网.json"
         },
         {
@@ -338,7 +395,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "jar": "http://akun.work.gd/upload/jar/Yoursmile2.jar",
+            "jar": "./Yoursmile2.jar",
             "ext": "http://akun.work.gd/upload/xBPQ/新香蕉实时直播.json"
         },
         {
@@ -349,7 +406,8 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "changeable": 0
+            "changeable": 0,
+            "jar":"./磁力/磁力+netflav.jar"
         },
         {
             "key": "csp_JavDb",
@@ -361,7 +419,8 @@
             "filterable": 1,
             "changeable": 0,
             "timeout": 1801,
-            "ext": "http://javdb523.com"
+            "ext": "http://javdb524.com",
+            "jar":"./磁力/磁力+netflav.jar"
         },
         {
             "key": "Cable",
@@ -384,7 +443,8 @@
             "changeable": 0,
             "filterable": 0,
             "timeout": 60,
-            "ext": "http://akun.work.gd/upload/lib/tokenm.json$$$http://akun.work.gd/upload/lib/pikpakclass.a.json$$$http://akun.work.gd/upload/lib/pikpakclass.a.json.txt.gz"
+            "ext": "http://akun.work.gd/upload/lib/tokenm.json$$$http://akun.work.gd/upload/lib/pikpakclass.a.json$$$http://akun.work.gd/upload/lib/pikpakclass.a.json.txt.gz",
+            "jar":"./磁力/磁力+netflav.jar"
         },
         {
             "key": "PikPakShare",
@@ -396,7 +456,8 @@
             "changeable": 0,
             "filterable": 0,
             "timeout": 60,
-            "ext": "http://akun.work.gd/upload/lib/tokenm.json$$$http://akun.work.gd/upload/lib/pikpakclass.a1.json$$$http://akun.work.gd/upload/lib/pikpakclass.a1.json.txt.gz"
+            "ext": "http://akun.work.gd/upload/lib/tokenm.json$$$http://akun.work.gd/upload/lib/pikpakclass.a1.json$$$http://akun.work.gd/upload/lib/pikpakclass.a1.json.txt.gz",
+            "jar":"./磁力/磁力+netflav.jar"
         },
         {
             "key": "博明",
@@ -469,7 +530,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "http://akun.work.gd/upload/xBPQ/新香蕉AV解说.json",
-            "jar": "http://akun.work.gd/upload/jar/Yoursmile2.jar"
+            "jar": "./Yoursmile2.jar"
         },
         {
             "key": "青楼专场",
@@ -1636,12 +1697,8 @@
       }]}
       ]
     },
-        {
-    "key": "push_agent",
-    "name": "❤推送 | lf_push",
-    "type": 3,
-    "api": "csp_Push"
-}
+    {"key": "push_agent","name": "推送","type": 3,"api": "csp_Push","changeable":0, "timeout":30, "jar":"./磁力/磁力+netflav.jar",
+			"ext":"./磁力/tokentemplate.json"}
       ],
       
   "rules": [
